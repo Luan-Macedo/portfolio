@@ -22,7 +22,22 @@ const Projeto = () => (
     </li>
     <li>
       <Card>
-        <Titulo>Lista de tarefas</Titulo>
+        <Titulo>Minhas tarefas React</Titulo>
+        <Paragrafo tipo="secundario">
+          Uma lista de tarefas com React, com um filtro baseado no status e
+          prioridade da tarefa, e sistema de adicionar/editar/excluir tarefas.
+        </Paragrafo>
+        <LinkBotao
+          href="https://github.com/Luan-Macedo/minhas-tarefas"
+          target="_blank"
+        >
+          Visualizar
+        </LinkBotao>
+      </Card>
+    </li>
+    <li>
+      <Card>
+        <Titulo>Lista de tarefas VueJs</Titulo>
         <Paragrafo tipo="secundario">
           Uma lista de tarefas feita usando o framework VueJs, com um sistema de
           cadastrar e filtrar tarefas.
@@ -70,7 +85,7 @@ const Projeto = () => (
           contagem regressiva.
         </Paragrafo>
         <LinkBotao
-          href="https://github.com/Luan-Macedo/setup-react"
+          href="https://github.com/Luan-Macedo/landingpage_evento"
           target="_blank"
         >
           Visualizar
@@ -84,7 +99,7 @@ const Projeto = () => (
           Um sorteador de número usando o Grunt.
         </Paragrafo>
         <LinkBotao
-          href="https://vercel.com/luanmacedos-projects/sorteador-grunt-luan-k2fb"
+          href="https://github.com/Luan-Macedo/sorteador_grunt"
           target="_blank"
         >
           Visualizar
